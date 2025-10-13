@@ -1,0 +1,9 @@
+{
+    "Help": {"Commands": "This is Help/Commands",
+     "About":"This is a simple Operating System that works in an emulated OS"},
+    "Commands": "NaN",
+    "About": "NaN",
+    "Apps": "NaN",
+    "Files": "NaN",
+    "Quit": "NaN",
+}
