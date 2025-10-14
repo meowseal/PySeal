@@ -1,6 +1,6 @@
 {
     "Help": {"Commands": "This is Help/Commands",
-     "About":"This is a simple Operating System that works in an emulated OS"},
+     "About":"This is a simple Operating System that works in a Python Emulator"},
     "Commands": "NaN",
     "About": "NaN",
     "Apps": "NaN",
