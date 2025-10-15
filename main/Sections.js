@@ -84,3 +84,19 @@ let year = d.getFullYear();
 let d1 = day + "/" + month + "/" + year;
 
 console.log(d1);
+
+switch (expression) {
+    case value1:
+        statement1;
+        break;
+    case value2:
+        statement2;
+        break;
+    .
+    .
+    case valueN:
+        statementN;
+        break;
+    default:
+        statementDefault;
+}
