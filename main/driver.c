@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
- system("runme.c");
- system("runme.c");
+ system("modules.py");
+ system("Pyseal.py")
  return 0;
 }
