@@ -73,19 +73,14 @@ function clearDisplay() {
     display.value = '';
 }
 
-// Function to append a value to the current display
-function appendToDisplay(value) {
-  if (currentDisplay === "0" || resultDisplay) {
-    // If the current display is "0" or the result is already displayed, replace it with the new value
-    currentDisplay = value;
-  } else {
-    // Otherwise, concatenate the new value to the current display
-    currentDisplay += value;
-  }
+let d = new Date();
 
-  // Reset the result display flag to false, as the user entered a new value
-  resultDisplay = false;
+let day = String(d.getDate()).padStart(2, "0");
 
-  // Update the calculator display to show the new content
-  updateDisplay();
-}
+let month = String(d.getMonth() + 1).padStart(2, "0");
+
+let year = d.getFullYear();
+
+let d1 = day + "/" + month + "/" + year;
+
+console.log(d1);
