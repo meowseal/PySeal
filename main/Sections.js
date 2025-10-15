@@ -72,3 +72,20 @@ function clearDisplay() {
     previousInput = '';
     display.value = '';
 }
+
+// Function to append a value to the current display
+function appendToDisplay(value) {
+  if (currentDisplay === "0" || resultDisplay) {
+    // If the current display is "0" or the result is already displayed, replace it with the new value
+    currentDisplay = value;
+  } else {
+    // Otherwise, concatenate the new value to the current display
+    currentDisplay += value;
+  }
+
+  // Reset the result display flag to false, as the user entered a new value
+  resultDisplay = false;
+
+  // Update the calculator display to show the new content
+  updateDisplay();
+}
